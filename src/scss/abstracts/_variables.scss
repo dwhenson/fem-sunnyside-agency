@@ -3,10 +3,16 @@
 
 :root {
   /* Common colors */
-  --clr-primary-100: rgb(213, 150, 108);
-  --clr-neutral-100: rgb(255, 255, 255);
-  --clr-neutral-220: rgb(68, 68, 68);
-  --clr-neutral-300: rgb(21, 21, 21);
+  --clr-primary-100: hsl(7, 99%, 70%);
+  --clr-primary-200: hsl(51, 100%, 49%);
+  --clr-primary-300: hsl(167, 40%, 24%);
+  --clr-primary-400: hsl(198, 62%, 26%);
+  --clr-primary-500: hsl(168, 34%, 41%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(210, 4%, 67%);
+  --clr-neutral-300: hsl(232, 10%, 55%);
+  --clr-neutral-400: hsl(213, 9%, 39%);
+  --clr-neutral-500: hsl(212, 27%, 19%);
 
   /* Spacing */
   --space-xxs: clamp(0.56rem, calc(0.54rem + 0.09vw), 0.63rem);
@@ -18,8 +24,8 @@
   --space-xxl: clamp(4.5rem, calc(4.32rem + 0.75vw), 5rem);
 
   /* Font styles */
-  --ff-headings: "Big Shoulders Display", "Brush Script MT", "cursive";
-  --ff-body: "Outfit", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
+  --ff-headings: "Fraunces", serif;
+  --ff-body: "Barlow", sans-serif;
 
   /* Font sizes */
   --step--1: clamp(0.9rem, calc(0.79rem + 0.45vw), 1.2rem);
