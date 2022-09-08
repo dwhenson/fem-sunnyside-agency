@@ -5,10 +5,10 @@
 Composition
 ================================================== */
 
-@use "composition/align-content";
-@use "composition/box";
+// @use "composition/align-content";
+// @use "composition/box";
 @use "composition/flow-content";
-@use "composition/flow-section";
+// @use "composition/flow-section";
 @use "composition/reverse-sidebar";
 @use "composition/sidebar";
 @use "composition/switcher";
@@ -77,6 +77,10 @@ p {
   opacity: 1 !important;
   outline: 4px solid var(--clr-primary-100);
   outline-offset: 4px;
+}
+
+a {
+  text-decoration: none;
 }
 
 :focus:not(:focus-visible) {
