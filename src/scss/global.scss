@@ -17,6 +17,7 @@ Composition
 Utilities
 ================================================== */
 
+@use "utilities/grid";
 @use "utilities/flex-column";
 // @use "utilities/font-large";
 // @use "utilities/skip-link";
@@ -47,6 +48,7 @@ body {
   background-color: var(--clr-neutral-100);
   font-family: var(--ff-body);
   font-size: var(--step--1);
+  text-align: center;
   color: var(--clr-neutral-400);
 }
 
@@ -57,7 +59,6 @@ body {
 
 h1 {
   font-size: var(--step-4);
-  // color: var(--clr-neutral-100);
 }
 
 h2 {
@@ -69,7 +70,7 @@ h3 {
 }
 
 p {
-  max-inline-size: min(100%, 35ch);
+  // max-inline-size: min(100%, 35ch);
 }
 
 :focus-visible {

@@ -2,6 +2,6 @@
 .box {
   display: grid;
   place-items: center;
-  padding-block: var(--padding-block, var(--space-s, 1rem));
+  padding-block: var(--padding-block, var(--space-l, 1rem));
   padding-inline: var(--padding-inline, var(--space-m, 1rem));
 }
