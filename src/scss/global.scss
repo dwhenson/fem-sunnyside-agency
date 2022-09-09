@@ -5,8 +5,8 @@
 Composition
 ================================================== */
 
-// @use "composition/align-content";
-// @use "composition/box";
+@use "composition/align-content";
+@use "composition/box";
 @use "composition/flow-content";
 // @use "composition/flow-section";
 @use "composition/reverse-sidebar";
@@ -52,7 +52,6 @@ body {
 
 :is(h1, h2, h3) {
   font-family: var(--ff-headings);
-  text-transform: uppercase;
   color: var(--clr-neutral-500);
 }
 
