@@ -2,10 +2,10 @@
 .switcher {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--bespoke-gap, var(--space-s, 1rem));
+  gap: var(--bespoke-gap, var(--space-l, 1rem));
 
   > * {
-    flex-basis: calc((var(--min-basis, 30rem) - 100%) * 999);
+    flex-basis: calc((var(--min-basis, 45rem) - 100%) * 999);
     flex-grow: 1;
   }
 
