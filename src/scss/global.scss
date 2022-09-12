@@ -27,7 +27,7 @@ Blocks
 ================================================== */
 
 // @use "blocks/button";
-// @use "blocks/header";
+@use "blocks/header";
 // @use "blocks/main";
 // @use "blocks/footer";
 
@@ -55,7 +55,9 @@ body {
 }
 
 h1 {
+  margin-block-start: 1.5em;
   font-size: var(--step-4);
+  color: var(--clr-neutral-100);
 }
 
 h2 {
