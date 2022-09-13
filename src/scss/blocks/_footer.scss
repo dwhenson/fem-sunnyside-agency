@@ -1,29 +1,35 @@
-@use "../abstracts/breakpoints" as *;
-
 .footer {
-  --padding-block: var(--space-xl);
+  --flow-space: var(--space-xl);
 
-  grid-column: 1 / -1;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(167.46, 43.791%, 70%);
 
-  .switcher {
-    --min-basis: 35rem;
-    --bespoke-gap: var(--space-xxl);
-
-    justify-content: space-between;
-
-    > p {
-      flex-grow: 2;
-      min-inline-size: min(25rem, 100%);
-    }
+  .logo {
+    align-self: center;
   }
 
-  .socials {
+  ul {
     display: flex;
-    justify-content: flex-start;
-    gap: var(--space-s);
+    align-items: center;
+    gap: var(--space-m);
+  }
 
-    @include respond-to("medium") {
-      justify-content: flex-end;
+  nav ul {
+    gap: var(--space-xl);
+  }
+
+  a,
+  a[aria-label] {
+    display: block;
+    transition: color 250ms, fill 250ms;
+    color: var(--clr-primary-500);
+    fill: var(--clr-primary-500);
+
+    &:hover,
+    &:focus {
+      color: var(--clr-neutral-100);
+      fill: var(--clr-neutral-100);
     }
   }
 }
