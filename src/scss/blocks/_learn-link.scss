@@ -16,12 +16,12 @@
     inline-size: 104%;
     block-size: 0.8em;
     border-radius: 9999px;
-    background-color: hsla(var(--underline, var(--clr-primary-100)), 0.2);
+    background-color: hsla(var(--hue, 167, 40%, 24%), 0.2);
     transform: translate(-50%, -95%);
     transition: background-color 250ms;
   }
 
   &:hover::after {
-    background-color: hsla(var(--underline, var(--clr-primary-100)), 0.7);
+    background-color: hsla(var(--hue, 167, 40%, 24%), 0.7);
   }
 }
