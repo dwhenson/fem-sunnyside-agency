@@ -1,6 +1,6 @@
 .testomonials {
-  --flow-space: var(--space-xxl);
-  margin-block-start: var(--space-xxl);
+  --flow-space: var(--space-l);
+  margin-block-start: var(--space-xl);
 
   h2 {
     font-size: var(--step--1);
@@ -10,13 +10,13 @@
   }
 
   img {
-    max-inline-size: var(--space-xxl);
+    max-inline-size: var(--space-xl);
     border-radius: 9999px;
   }
 
   .attribution {
     --flow-space: var(--space-xxs);
-    margin-block-start: var(--space-xxl);
+    margin-block-start: var(--space-xl);
 
     .name {
       font-family: var(--ff-headings);

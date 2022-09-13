@@ -1,5 +1,6 @@
 @use "reset";
 @use "abstracts/variables";
+@use "abstracts/breakpoints" as *;
 
 /* ==================================================
 Composition
@@ -21,7 +22,7 @@ Utilities
 @use "utilities/padding-block";
 @use "utilities/visually-hidden";
 @use "utilities/dark-text";
-// @use "utilities/weight-bold";
+@use "utilities/adjust-alignment";
 
 /* ==================================================
 Blocks
@@ -64,7 +65,7 @@ h3 {
 }
 
 p {
-  // max-inline-size: min(100%, 35ch);
+  max-inline-size: min(100%, 40ch);
 }
 
 :focus-visible {
