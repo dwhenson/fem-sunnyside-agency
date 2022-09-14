@@ -28,9 +28,11 @@ Utilities
 Blocks
 ================================================== */
 
-// @use "blocks/button";
+@use "blocks/burger-menu";
+@use "blocks/navigation";
 @use "blocks/learn-link";
 @use "blocks/header";
+@use "blocks/site-head";
 @use "blocks/testomonials";
 @use "blocks/footer";
 
