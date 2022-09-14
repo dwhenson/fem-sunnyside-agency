@@ -80,6 +80,18 @@
   .contact {
     background-color: hsl(51, 100%, 49%, 1);
   }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset-block-start: -1.5rem;
+    inset-inline-end: 0;
+    inline-size: 0;
+    block-size: 0;
+    border: 1.5rem solid transparent;
+    border-block-end: 0;
+    border-inline-end: 1.5rem solid var(--clr-neutral-100);
+  }
 }
 
 // Hamburger menu panel transitions
