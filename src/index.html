@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
+    <meta name="description" content="Frontend Mentor Challenge" />
+    <meta name="author" content="Dave Henson: www.dwhenson.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="scss/global.scss" />
-    <script type="module" src="js/main.js"></script>
+    <script defer type="module" src="js/main.js"></script>
   </head>
   <body class="align-content">
     <header class="header">
@@ -50,7 +52,7 @@
       </svg>
     </header>
 
-    <main>
+    <main id="main-content">
       <section class="has-sidebar">
         <div class="box">
           <div class="flow-content adjust-alignment">
@@ -63,7 +65,9 @@
             <a class="learn-link" style="--hue: 51, 100%, 49%" href="/">Learn more</a>
           </div>
         </div>
-        <div><img src="images/desktop/image-transform.jpg" alt="" /></div>
+        <div>
+          <img src="images/desktop/image-transform.jpg" alt="" width="720" height="600" />
+        </div>
       </section>
 
       <section class="has-sidebar-reverse">
@@ -78,12 +82,20 @@
             <a class="learn-link" href="/" style="--hue: 7, 99%, 70%">Learn more</a>
           </div>
         </div>
-        <div><img src="images/desktop/image-stand-out.jpg" alt="" /></div>
+        <div>
+          <img src="images/desktop/image-stand-out.jpg" alt="" width="720" height="600" />
+        </div>
       </section>
 
-      <section class="has-sidebar">
+      <section class="has-sidebar-reverse">
         <div class="overlay">
-          <div><img src="images/desktop/image-graphic-design.jpg" alt="" /></div>
+          <div>
+            <img
+              src="images/desktop/image-graphic-design.jpg"
+              alt=""
+              width="720"
+              height="600" />
+          </div>
           <div class="flow-content box">
             <h3>Graphic design</h3>
             <p class="dark-text">
@@ -93,7 +105,13 @@
           </div>
         </div>
         <div class="overlay">
-          <div><img src="images/desktop/image-photography.jpg" alt="" /></div>
+          <div>
+            <img
+              src="images/desktop/image-photography.jpg"
+              alt=""
+              width="720"
+              height="600" />
+          </div>
           <div class="flow-content box">
             <h3>Photography</h3>
             <p class="dark-text">
@@ -108,7 +126,7 @@
         <h2>Client testimonials</h2>
         <div class="switcher">
           <div class="flow-content box">
-            <img src="images/image-emily.jpg" alt="Emily R." />
+            <img src="images/image-emily.jpg" alt="Emily R." width="144" height="144" />
             <p class="dark-text">
               We put our trust in Sunnyside and they delivered, making sure our needs were
               met and deadlines were always hit.
@@ -119,7 +137,7 @@
             </div>
           </div>
           <div class="flow-content box">
-            <img src="images/image-thomas.jpg" alt="Thomas S" />
+            <img src="images/image-thomas.jpg" alt="Thomas S" width="144" height="144" />
             <p class="dark-text">
               Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
               success made it a satisfying and enjoyable experience.
@@ -130,7 +148,7 @@
             </div>
           </div>
           <div class="flow-content box">
-            <img src="images/image-jennie.jpg" alt="Jennie F." />
+            <img src="images/image-jennie.jpg" alt="Jennie F." width="144" height="144" />
             <p class="dark-text">
               Incredible end result! Our sales increased over 400% when we worked with
               Sunnyside. Highly recommended!

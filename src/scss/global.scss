@@ -9,7 +9,6 @@ Composition
 @use "composition/align-content";
 @use "composition/box";
 @use "composition/flow-content";
-// @use "composition/flow-section";
 @use "composition/reverse-sidebar";
 @use "composition/sidebar";
 @use "composition/switcher";
@@ -41,7 +40,7 @@ body {
   font-family: var(--ff-body);
   font-size: var(--step--1);
   text-align: center;
-  color: var(--clr-neutral-300);
+  color: var(--clr-neutral-400);
 }
 
 :is(h1, h2, h3) {

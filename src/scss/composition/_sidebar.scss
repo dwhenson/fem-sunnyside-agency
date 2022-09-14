@@ -2,7 +2,7 @@
   --bespoke-gap: 0;
 
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   gap: var(--bespoke-gap, var(--space-s, 1rem));
 
   // Sidebar

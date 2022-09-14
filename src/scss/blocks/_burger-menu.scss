@@ -19,8 +19,9 @@
 }
 
 .burger-menu__bar {
+  opacity: 1;
   inset-block-start: 50%;
-  transform: translateY(-50%);
+  transition: opacity 300ms;
 }
 
 .burger-menu__bar::before,
@@ -60,10 +61,12 @@
   padding-inline: max(4vh, 2rem);
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  transition: opacity 300ms;
 }
 
 // Hamburger menu panel content size and positioning
 .burger-menu[enabled="true"] .navigation {
+  position: relative;
   padding: 2rem;
   box-shadow: 0 1em 1em hsla(245, 10%, 22%, 0.7);
   background-color: var(--clr-neutral-100);
@@ -98,33 +101,16 @@
 .burger-menu[enabled="true"][status="open"] .burger-menu__panel {
   visibility: visible;
   opacity: 1;
-  transition: opacity 400ms ease;
 }
 
 .burger-menu[enabled="true"][status="closed"] .burger-menu__panel > * {
   opacity: 0;
-  transform: translateY(5rem);
 }
 
 .burger-menu[enabled="true"][status="open"] .burger-menu__panel > * {
   opacity: 1;
-  transform: translateY(0);
-  transition: transform 500ms cubic-bezier(0.17, 0.67, 0, 0.87) 200ms,
-    opacity 500ms ease 300ms;
-}
-
-.burger-menu[enabled="true"][status="open"] .burger-menu__bar::before {
-  inset-block-start: 0;
-  transform: rotate(45deg);
-}
-
-.burger-menu[enabled="true"][status="open"] .burger-menu__bar::after {
-  inset-block-start: 0;
-  transform: rotate(-45deg);
 }
 
 .burger-menu[enabled="true"][status="open"] .burger-menu__bar {
-  border-color: transparent;
-  background: transparent;
-  transform: rotate(180deg);
+  opacity: 0.25;
 }
