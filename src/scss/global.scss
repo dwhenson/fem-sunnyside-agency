@@ -17,29 +17,29 @@ Composition
 Utilities
 ================================================== */
 
+@use "utilities/adjust-alignment";
+@use "utilities/dark-text";
 @use "utilities/overlay";
 @use "utilities/padding-block";
 @use "utilities/visually-hidden";
-@use "utilities/dark-text";
-@use "utilities/adjust-alignment";
 
 /* ==================================================
 Blocks
 ================================================== */
 
 @use "blocks/burger-menu";
-@use "blocks/navigation";
-@use "blocks/learn-link";
-@use "blocks/header";
-@use "blocks/site-head";
-@use "blocks/testomonials";
 @use "blocks/footer";
 @use "blocks/gallery";
+@use "blocks/header";
+@use "blocks/learn-link";
+@use "blocks/site-head";
+@use "blocks/testomonials";
 
 body {
   background-color: var(--clr-neutral-100);
   font-family: var(--ff-body);
   font-size: var(--step--1);
+  font-weight: 400;
   text-align: center;
   color: var(--clr-neutral-400);
 }
