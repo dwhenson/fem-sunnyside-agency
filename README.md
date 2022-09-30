@@ -4,7 +4,7 @@
 
 ## Summary
 
-I enjoyed this one as it seemed to play will with an 'intrinsic design' approach. I feel like I'm getting better and more used to this approach, and I think it's a lovely way to build pages. I only used one breakpoint in this design which is to adjust the alignment of text in some sections.
+I enjoyed building this page as it seemed to play will with an 'intrinsic design' approach. I feel like I'm getting better and more used to this approach, and I think it's a lovely way to build pages. I only used one breakpoint in this design which is to adjust the alignment of text in some sections.
 
 ## Resources
 
